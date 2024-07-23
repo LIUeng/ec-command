@@ -1,0 +1,26 @@
+{
+  "name": "ec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "./index.d.ts",
+  "bin": "./lib/index.js",
+  "scripts": {
+    "compile": "tsc",
+    "watch": "tsc --watch"
+  },
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11"
+  }
+}
