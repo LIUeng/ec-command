@@ -1,26 +1,47 @@
 {
-  "name": "ec",
+  "name": "@liueng/ec",
   "version": "1.0.0",
-  "description": "",
+  "description": "Some quick operation commands collected during programming development",
   "main": "dist/index.js",
   "types": "./index.d.ts",
-  "bin": "./lib/index.js",
+  "bin": {
+    "ec": "lib/index.js"
+  },
   "scripts": {
     "compile": "tsc",
     "watch": "tsc --watch"
   },
   "files": [
     "dist",
-    "lib"
+    "lib",
+    "index.d.ts"
   ],
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "LIUeng",
+  "contributors": [
+    {
+      "name": "LIUeng",
+      "email": "liueng0814@gmail.com",
+      "url": "https://github.com/LIUeng"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LIUeng/ec-command.git"
+  },
+  "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0",
     "typescript": "^5.5.3"
   },
   "devDependencies": {
     "@types/node": "^20.14.11"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "bugs": {
+    "url": "https://github.com/LIUeng/ec-command/issues"
+  },
+  "homepage": "https://github.com/LIUeng/ec-command#readme"
 }
