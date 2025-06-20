@@ -2,19 +2,23 @@
 
 ## Install
 
-目前暂未发布到 npm 仓库
-
-- git clone 项目地址
-- npm run compile 构建项目
-- npm link
+```shell
+# global
+npm i -g @liueng/ec
+# or local
+npm i -D @liueng/ec
+```
 
 ## Usage
 
 ```shell
+# global
 ec <command> [name] --help
+# or local use
+./node_modules/.bin/ec <command> [name] --help
 ```
 
-## \<command>
+## command
 
 ### stash
 
@@ -26,13 +30,12 @@ ec stash --help
 ec stash [name] -n \>1
 ```
 
-`drop`
+#### `drop`
 
-> -n <string|number> 指定需要删除的 stash（支持单个，多个）
+参数指定
 
-- 1 删除 1 的 stash
-- \>1 删除大于（>=等于）1 的 stash
-- \<1 删除小于（<=等于）1 的 stash
-- 1..2 区间范围（删除包含 1 ~ 2 的 stash）
+| 参数 | type          | 描述                                   | 支持                                                                                                                                                         |
+| ---- | ------------- | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| -n   | string number | 指定需要删除的 stash（支持单个，多个） | -n 1 删除 1 的 stash <br /> -n \\>1 删除大于（>=等于）1 的 stash <br />-n \\<1 删除小于（<=等于）1 的 stash<br />-n 1..2 区间范围（删除包含 1 ~ 2 的 stash） |
 
-## ...
+## In Progress

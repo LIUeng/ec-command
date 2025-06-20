@@ -1,6 +1,6 @@
 {
   "name": "@liueng/ec",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Some quick operation commands collected during programming development",
   "main": "dist/index.js",
   "types": "./index.d.ts",
@@ -14,7 +14,8 @@
   "files": [
     "dist",
     "lib",
-    "index.d.ts"
+    "index.d.ts",
+    "README.md"
   ],
   "keywords": [],
   "author": "LIUeng",
@@ -35,6 +36,7 @@
     "typescript": "^5.5.3"
   },
   "devDependencies": {
+    "@liueng/ec": "^1.0.0",
     "@types/node": "^20.14.11"
   },
   "directories": {
