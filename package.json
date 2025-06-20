@@ -1,6 +1,6 @@
 {
   "name": "@liueng/ec",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Some quick operation commands collected during programming development",
   "main": "dist/index.js",
   "types": "./index.d.ts",
@@ -17,7 +17,7 @@
     "index.d.ts",
     "README.md"
   ],
-  "keywords": [],
+  "keywords": ["shell", "command"],
   "author": "LIUeng",
   "contributors": [
     {
@@ -32,11 +32,10 @@
   },
   "license": "MIT",
   "dependencies": {
-    "commander": "^12.1.0",
-    "typescript": "^5.5.3"
+    "commander": "^12.1.0"
   },
   "devDependencies": {
-    "@liueng/ec": "^1.0.0",
+    "typescript": "^5.5.3",
     "@types/node": "^20.14.11"
   },
   "directories": {
